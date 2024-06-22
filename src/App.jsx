@@ -20,7 +20,7 @@ function App() {
   ];
   return (
     <>
-      <div className="px-16 text-slate-100">
+      <div className="px-4 md:px-16 text-slate-100 pb-20">
         <header className="flex justify-between items-center py-4 ">
           <div className="flex items-center">
             {/* <img src="/logo.svg" alt="logo" className="h-8 mr-4" /> */}
@@ -28,7 +28,7 @@ function App() {
               London Hospitality
             </h1>
           </div>
-          <nav className="flex space-x-4">
+          <nav className="flex space-x-4 max-sm:hidden">
             {[
               "Home",
               "People",
@@ -54,13 +54,13 @@ function App() {
           <h1 className="text-5xl font-bold text-slate-100 mb-10">Hotels</h1>
           <div className="space-y-10">
             {hotelsData.map((hotel, index) => (
-              <div className="flex flex-1 gap-10 " key={index}>
+              <div className="lg:flex flex-1 gap-10 space-y-6" key={index}>
                 <div className="flex-1">
                   <a href="">
                     <img className="rounded-lg" src={hotel.image} alt="" />
                   </a>
                 </div>
-                <div>
+                <div className="space-y-4">
                   <a href="">
                     <h1 className="text-3xl  font-bold text-slate-100">
                       {hotel.name}
