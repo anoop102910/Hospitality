@@ -60,7 +60,6 @@ function App() {
       <div className="px-4 md:px-16 text-slate-100 pb-20">
         <header className="flex justify-between items-center py-4 ">
           <div className="flex items-center">
-            {/* <img src="/logo.svg" alt="logo" className="h-8 mr-4" /> */}
             <h1 className="text-3xl font-bold text-slate-100">
               London Hospitality
             </h1>
