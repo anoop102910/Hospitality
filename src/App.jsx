@@ -75,7 +75,7 @@ function App() {
             ].map(link => (
               <a
                 href="#"
-                className="text-gray-100 hover:text-gray-900"
+                className="text-gray-500 hover:text-gray-100 transition-all"
                 key={link}
               >
                 {link}
