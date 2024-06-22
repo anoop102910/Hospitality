@@ -9,12 +9,27 @@ function App() {
     },
     {
       image: "image2.png",
-      name: " Red Roof PLUS+ Pittsburgh East - Monroeville",
+      name: " Red Roof Inn Buffalo - Niagara Airport",
       para: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem?",
     },
     {
       image: "image3.png",
-      name: " Red Roof PLUS+ Pittsburgh East - Monroeville",
+      name: " Red Roof Inn Mystic - New London",
+      para: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem?",
+    },
+    {
+      image: "image4.png",
+      name: " Holiday Inn Express Philadelphia NE - Bensalem, an IHG Hotel",
+      para: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem?",
+    },
+    {
+      image: "image5.png",
+      name: " Clarion Inn New London - Mystic",
+      para: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem?",
+    },
+    {
+      image: "image6.png",
+      name: " Quality Inn JFK Airport Rockaway Blvd",
       para: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem?",
     },
   ];
@@ -54,13 +69,13 @@ function App() {
           <h1 className="text-5xl font-bold text-slate-100 mb-10">Hotels</h1>
           <div className="space-y-10">
             {hotelsData.map((hotel, index) => (
-              <div className="lg:flex flex-1 gap-10 space-y-6" key={index}>
+              <div className="lg:flex flex-1 gap-16 space-y-6" key={index}>
                 <div className="flex-1">
                   <a href="">
                     <img className="rounded-lg" src={hotel.image} alt="" />
                   </a>
                 </div>
-                <div className="space-y-4">
+                <div className="space-y-4 flex-1">
                   <a href="">
                     <h1 className="text-3xl  font-bold text-slate-100">
                       {hotel.name}
