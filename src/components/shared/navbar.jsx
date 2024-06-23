@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex flex-wrap justify-between items-center  ">
           <Link to="/" className="flex items-center">
             <img
-              src="logo.jpeg"
+              src="logo1.jpeg"
               className="mr-3 h-6 sm:h-16"
               alt="New London Hospitality Logo"
             />
