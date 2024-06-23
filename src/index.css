@@ -24,4 +24,17 @@
     visibility: visible;
     transform: scaleX(1);
   }
-  
+@keyframes slide-in-top {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in-top {
+  animation: slide-in-top 1s ease-out forwards;
+}

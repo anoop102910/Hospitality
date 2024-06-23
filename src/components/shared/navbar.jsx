@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header className="bg-white dark:bg-gray-800 lg:px-20 py-2">
-      <nav className="px-4 lg:px-6 py-2.5 flex items-center ">
+      <nav className="px-4 lg:px-6 py-2.5 flex items-center justify-between">
         <div className="flex flex-wrap justify-between items-center  ">
           <Link to="/" className="flex items-center">
             <img

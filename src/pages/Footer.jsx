@@ -25,12 +25,13 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
             {[
               {
-                title: "Company",
+                title: "What we Offer",
                 links: [
-                  { name: "About", href: "#" },
-                  { name: "Careers", href: "#" },
-                  { name: "Brand Center", href: "#" },
-                  { name: "Blog", href: "#" },
+                  { name: "Business Operations", href: "#" },
+                  { name: "Financial Management", href: "#" },
+                  { name: "Technology & Innovation", href: "#" },
+                  { name: "Customer Relations", href: "#" },
+                  { name: "Quality Assurance", href: "#" },
                 ],
               },
               {

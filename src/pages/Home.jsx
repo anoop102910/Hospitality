@@ -1,16 +1,10 @@
 import React from "react";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
+
 import Services from "./Sevices";
-import About from "./AboutSection";
+import About from "./About";
 import ContactUs from "./Contact";
 import Footer from "./Footer";
+import Main from "./Main";
 
 const aboutUs = [
   {
@@ -68,40 +62,8 @@ const services = [
 function Home() {
   return (
     <div className="text-white min-h-screen ">
-      {/* Home Section */}
-      <div>
-        <Carousel
-          plugins={[
-            Autoplay({
-              delay: 5000,
-            }),
-          ]}
-        >
-          <CarouselContent>
-            {[...Array(5)].map((_, i) => (
-              <CarouselItem key={i} className="relative h-[90vh]">
-                <img
-                  className="w-full z-[-10] h-[90vh] object-cover absolute top-0 left-0 right-0 "
-                  src={`hero3.png`}
-                  alt=""
-                />
-                <div className="pl-20 pt-20 mt-10 w-1/2 text-white">
-                  <h1 className="top-10 text-5xl font-bold mb-2  ">
-                    Delivering the Best Business Translation
-                  </h1>
-                  <p className="text-2xl mt-10  ">
-                    Established in 1999, today our company is the synonym of the
-                    top-notch translation standards and an important partner of
-                    the biggest companies.
-                  </p>
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="hidden" />
-          <CarouselNext className="hidden" />
-        </Carousel>
-      </div>
+      {/* Main Section */}
+      <Main />
 
       {/* About Section      */}
       <About />
