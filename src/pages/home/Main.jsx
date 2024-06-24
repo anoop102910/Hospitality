@@ -39,7 +39,7 @@ function Main() {
                   at a Time
                 </h1>
                 <p className="text-lg md:text-2xl mt-10 slide-in-top">
-                  .Elevating guest satisfaction through innovation, excellence,
+                  Elevating guest satisfaction through innovation, excellence,
                   and personalized service. Discover the future of hospitality
                   with New London Hospitality
                 </p>
