@@ -10,7 +10,7 @@ const Footer = () => {
             <Link to="/">
               <img
                 src="logo.jpeg"
-                className="mr-3 h-6 sm:h-16 mix-blend-multiply inline-block"
+                className="mr-3 h-12 sm:h-20 mix-blend-multiply inline-block"
                 alt="New London Hospitality Logo"
               />
               <div className="flex flex-col  text-black  mt-3">

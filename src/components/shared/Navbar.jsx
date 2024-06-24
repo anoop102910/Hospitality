@@ -20,10 +20,10 @@ const Header = () => {
           <Link to="/" className="flex items-center">
             <img
               src="logo.jpeg"
-              className="mr-3 h-6 sm:h-16"
+              className="mr-3 h-12 sm:h-20"
               alt="New London Hospitality Logo"
             />
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col ">
               <span className="whitespace-nowrap dark:text-white">
                 New London
               </span>
