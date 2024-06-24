@@ -1,51 +1,51 @@
 import CountUp from "react-countup";
 
 export default function About() {
-
-    const technologies = [
-        {
-          title: "Business Operations: Excellence in Optimizing Business Operations",
-          description:
-            "At New London Hospitality, we excel in optimizing business operations to enhance efficiency and guest satisfaction. From streamlining processes to ensuring seamless day-to-day functioning, our focus is on delivering exceptional service while maximizing operational effectiveness.",
-          img: "about1.jpeg",
-        },
-        {
-          title: "Revenue Management",
-          description:
-            "Effective revenue management is crucial in the competitive hospitality landscape. We employ advanced strategies to optimize pricing, forecast demand accurately, and capitalize on revenue opportunities, thereby maximizing profitability for our clients.",
-          img: "tech2.webp",
-        },
-        {
-          title: "Financial Management: Meticulous Financial Management",
-          description:
-            "Sound financial management is fundamental to our approach. We meticulously analyze financial performance, manage budgets, and implement cost-control measures to ensure sustainable profitability and long-term financial health for the properties under our management.",
-          img: "tech3.webp",
-        },
-        {
-          title: "Technology & Innovation: Embracing Cutting-Edge Technology",
-          description:
-            "Embracing cutting-edge technology and innovation is at the core of our approach. We leverage the latest hospitality management systems and innovative solutions to enhance guest experiences, streamline operations, and stay ahead in a rapidly evolving industry.",
-          img: "tech4.webp",
-        },
-        {
-          title: "Customer Relations: Customer-Centric Approach",
-          description:
-            "Exceptional customer relations lie at the heart of our service philosophy. We prioritize building strong guest relationships through personalized experiences, attentive service, and responsiveness to feedback, thereby fostering loyalty and driving guest satisfaction.",
-          img: "tech1.webp",
-        },
-        {
-          title: "Human Resources",
-          description:
-            "Our commitment to excellence extends to our people. We invest in recruiting top talent, provide comprehensive training programs, and foster a culture of continuous learning and development. By empowering our teams, we ensure they deliver the highest standards of service and professionalism.",
-          img: "tech2.webp",
-        },
-        {
-          title: "Quality Assurance",
-          description:
-            "Maintaining high standards of quality is non-negotiable. We implement rigorous quality assurance protocols, conduct regular inspections, and uphold industry best practices to ensure consistency, safety, and compliance across all managed properties.",
-          img: "tech3.webp",
-        },
-      ];
+  const technologies = [
+    {
+      title:
+        "Business Operations: Excellence in Optimizing Business Operations",
+      description:
+        "At New London Hospitality, we excel in optimizing business operations to enhance efficiency and guest satisfaction. From streamlining processes to ensuring seamless day-to-day functioning, our focus is on delivering exceptional service while maximizing operational effectiveness.",
+      img: "about1.jpeg",
+    },
+    {
+      title: "Revenue Management",
+      description:
+        "Effective revenue management is crucial in the competitive hospitality landscape. We employ advanced strategies to optimize pricing, forecast demand accurately, and capitalize on revenue opportunities, thereby maximizing profitability for our clients.",
+      img: "tech2.webp",
+    },
+    {
+      title: "Financial Management: Meticulous Financial Management",
+      description:
+        "Sound financial management is fundamental to our approach. We meticulously analyze financial performance, manage budgets, and implement cost-control measures to ensure sustainable profitability and long-term financial health for the properties under our management.",
+      img: "tech3.webp",
+    },
+    {
+      title: "Technology & Innovation: Embracing Cutting-Edge Technology",
+      description:
+        "Embracing cutting-edge technology and innovation is at the core of our approach. We leverage the latest hospitality management systems and innovative solutions to enhance guest experiences, streamline operations, and stay ahead in a rapidly evolving industry.",
+      img: "tech4.webp",
+    },
+    {
+      title: "Customer Relations: Customer-Centric Approach",
+      description:
+        "Exceptional customer relations lie at the heart of our service philosophy. We prioritize building strong guest relationships through personalized experiences, attentive service, and responsiveness to feedback, thereby fostering loyalty and driving guest satisfaction.",
+      img: "tech1.webp",
+    },
+    {
+      title: "Human Resources",
+      description:
+        "Our commitment to excellence extends to our people. We invest in recruiting top talent, provide comprehensive training programs, and foster a culture of continuous learning and development. By empowering our teams, we ensure they deliver the highest standards of service and professionalism.",
+      img: "tech2.webp",
+    },
+    {
+      title: "Quality Assurance",
+      description:
+        "Maintaining high standards of quality is non-negotiable. We implement rigorous quality assurance protocols, conduct regular inspections, and uphold industry best practices to ensure consistency, safety, and compliance across all managed properties.",
+      img: "tech3.webp",
+    },
+  ];
 
   return (
     <div>
@@ -59,8 +59,11 @@ export default function About() {
             that plays a pivotal role in the dynamic hospitality industry. With
             a robust portfolio, we specialize in overseeing the operations and
             setting the strategic direction for a diverse range of business
-            properties. Our expertise spans various essential functions within
-            the hospitality sector, ensuring optimal performance and growth.
+            properties.
+          </p>
+          <p className="text-slate-700 mb-4">
+            Our expertise spans various essential functions within the
+            hospitality sector, ensuring optimal performance and growth.
           </p>
         </div>
         <div>
@@ -72,25 +75,25 @@ export default function About() {
           <div className="grid grid-cols-2 gap-10">
             <span>
               <span className="text-4xl font-medium block">
-                <CountUp end={3.5} />
+                <CountUp end={3.5} />+
               </span>
               <span>years of experience</span>
             </span>
             <span>
               <span className="text-4xl font-medium block">
-                <CountUp end={23} />
+                <CountUp end={23} />+
               </span>
               <span>projects</span>
             </span>
             <span>
               <span className="text-4xl font-medium block">
-                <CountUp end={830} />
+                <CountUp end={830} />+
               </span>
               <span>positive responses</span>
             </span>
             <span>
               <span className="text-4xl font-medium block">
-                <CountUp end={100000} />
+                <CountUp end={100000} />+
               </span>
               <span>trusted hotels</span>
             </span>

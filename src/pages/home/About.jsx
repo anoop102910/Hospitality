@@ -7,7 +7,7 @@ const About = () => {
             About Us
           </h2>
           <p className="mb-4 text-slate-700">
-            New london hospitality is a business management company plays a
+            New london hospitality is a business management company that plays a
             crucial role in the hospitality industry by overseeing the
             operations and strategic direction of multiple business properties.
           </p>
