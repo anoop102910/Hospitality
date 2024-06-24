@@ -6,12 +6,12 @@ const About = () => {
           <h2 className="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">
             About Us
           </h2>
-          <p className="mb-4">
+          <p className="mb-4 text-slate-700">
             New london hospitality is a business management company plays a
             crucial role in the hospitality industry by overseeing the
             operations and strategic direction of multiple business properties.
           </p>
-          <p>
+          <p className="text-slate-700">
             We are strategists, designers and developers. Innovators and problem
             solvers. Small enough to be simple and quick.
           </p>
