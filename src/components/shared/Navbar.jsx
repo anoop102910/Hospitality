@@ -5,16 +5,16 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const navItems = [
     { text: "Home", icon: <Home size={18} />, link: "/" },
-    { text: "Technology", icon: <Home size={18} />, link: "/technology" },
-    { text: "Bussiness", icon: <Home size={18} />, link: "/bussiness" },
-    { text: "Finance", icon: <Home size={18} />, link: "/financial-management" },
-    { text: "Customer ", icon: <Home size={18} />, link: "/customer-relations" },
-    { text: "Quality", icon: <Home size={18} />, link: "/quality" },
     { text: "About Us", icon: <Home size={18} />, link: "/about-us" },
+    { text: "Technology & Innovation", icon: <Home size={18} />, link: "/technology" },
+    { text: "Bussiness Operations", icon: <Home size={18} />, link: "/bussiness" },
+    { text: "Financial Management", icon: <Home size={18} />, link: "/financial-management" },
+    { text: "Customer Relations", icon: <Home size={18} />, link: "/customer-relations" },
+    { text: "Quality Assurance", icon: <Home size={18} />, link: "/quality" },
   ];
 
   return (
-    <header className="bg-white dark:bg-gray-800 lg:px-20 py-2">
+    <header className="bg-white dark:bg-gray-800 py-2">
       <nav className="px-4 lg:px-6 py-2.5 flex items-center justify-between">
         <div className="flex flex-wrap justify-between items-center  ">
           <Link to="/" className="flex items-center">
@@ -57,7 +57,7 @@ const Header = () => {
             <ul className="flex flex-col lg:flex-row lg:space-x-4 ">
               {navItems.map((item, index) => (
                 <li key={index} className="flex items-center">
-                  <Link to={item.link} className="dark:text-white">{item.text}</Link>
+                  <Link to={item.link} className="dark:text-white w-max">{item.text}</Link>
                 </li>
               ))}
             </ul>
