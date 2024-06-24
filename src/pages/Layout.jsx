@@ -1,4 +1,4 @@
-import Header from "@/components/shared/navbar";
+import Header from "@/components/shared/Navbar";
 import React from "react";
 import { Outlet, Route,  Routes } from "react-router-dom";
 

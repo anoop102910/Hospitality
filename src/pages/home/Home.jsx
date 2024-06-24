@@ -3,7 +3,7 @@ import React from "react";
 import Services from "./Sevices";
 import About from "./About";
 import ContactUs from "./Contact";
-import Footer from "./Footer";
+import Footer from "../../components/shared/Footer";
 import Main from "./Main";
 
 const aboutUs = [
