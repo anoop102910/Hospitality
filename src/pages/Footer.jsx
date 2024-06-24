@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-xl">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0 mt-20 text-center">
-            <Link to="/" className="">
+            <Link to="/">
               <img
                 src="logo.jpeg"
                 className="mr-3 h-6 sm:h-16 mix-blend-multiply inline-block"
