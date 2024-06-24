@@ -41,7 +41,7 @@ function Main() {
                 <p className="text-lg md:text-2xl mt-10 slide-in-top">
                   Elevating guest satisfaction through innovation, excellence,
                   and personalized service. Discover the future of hospitality
-                  with New London Hospitality
+                  with <span className="inline-block">New London Hospitality</span>
                 </p>
                 <div className="mt-6 slide-in-top">
                   <Link to={"/about-us"}>
