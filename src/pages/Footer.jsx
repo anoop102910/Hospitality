@@ -9,7 +9,7 @@ const Footer = () => {
           <div class="mb-6 md:mb-0 mt-20 text-center">
             <Link to="/" className="">
               <img
-                src="logo1.jpeg"
+                src="logo.jpeg"
                 className="mr-3 h-6 sm:h-16 mix-blend-multiply inline-block"
                 alt="New London Hospitality Logo"
               />
